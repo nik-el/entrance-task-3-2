@@ -261,6 +261,6 @@ const getSchedule = (data) => {
   return resultSchedule;
 };
 
-getSchedule(DATA);
+// getSchedule(DATA);
 
-
+export {getSchedule, DATA}

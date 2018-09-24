@@ -1,0 +1,23 @@
+{
+  "name": "entrance-task-3-2",
+  "version": "1.0.0",
+  "description": "``` node script.js ``` ## Функционал + На входе принимает список устройств и тарифы и максимальную мощность + На выходе выдает расписание и затраченную энергию по устройству + Следит за тем, чтобы не была превышена максимальная мощность в час",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-plugin-transform-es2015-modules-commonjs": "6.26.0",
+    "babel-register": "6.26.0",
+    "chai": "^4.1.2",
+    "gulp": "^3.9.1",
+    "gulp-mocha": "^6.0.0"
+  },
+  "babel": {
+    "plugins": [
+      "transform-es2015-modules-commonjs"
+    ]
+  }
+}
